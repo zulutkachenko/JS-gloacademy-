@@ -3,7 +3,6 @@ const cart = function() {
     const cart = document.getElementById('modal-cart');
     const cartClose = cart.querySelector('.modal-close');
 
-
     cartBtn.addEventListener('click', function() {
         cart.style.display = 'flex';
     });
@@ -13,4 +12,4 @@ const cart = function() {
     });
 }
 
-cart();
+export default cart;
